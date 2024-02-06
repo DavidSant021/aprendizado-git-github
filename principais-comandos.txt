@@ -37,3 +37,45 @@ history // mostra o histórico de comandos usados
 history | grep mkdir // procura no histórico somente os mkdir
 
 exit // fecha o terminal
+
+
+GIT
+
+git diff arquivo // vejo as diferenças 
+
+git commit -- amend // muda a descrição do ultimo commit
+
+git reset HEAD arquivo // retira o arquivo do git add
+
+git checkout -- arquivo // volta o arquivo pro estado inicial
+
+
+BRANCHS
+
+git branch // vizualiza as branchs do projeto
+
+git branch nome // cria uma nova branch
+
+git checkout nome // muda de branch
+
+git branch -D nome // deleta a branch
+
+git checkout -b nome // cria e muda de branch
+
+git merge nome // passo as coisa da branch para a master
+
+
+REPOSITÓRIOS
+
+git clone link // clona um repositório
+
+git remote add origin link // linka ao projeto que está no github
+
+git push origin master // passa do local para o github na branch master do github
+
+git pull origin master // baixa as atualizações do projeto
+
+
+IGNORANDO ARQUIVOS
+
+Crio o arquivo .gitignore e dentro dele boto o nome dos arquivos a serem ignorados
