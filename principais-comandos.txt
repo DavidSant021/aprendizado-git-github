@@ -1,0 +1,39 @@
+echo 'texto' // mostra o texto na tela
+
+pwd // mostra em qual pasta estou
+
+ls // lista oque tem no diretório (azul é pasta e branco é arquivo)
+
+mkdir // cria uma nova pasta
+
+cd // entra na pasta
+
+cd ../ // volta para pasta anterior
+
+touch // cria um novo arquivo
+
+acho 'texto' >> arquivo.txt // adiciona o texto dentro do arquivo
+
+cat // mostra oque tem dentro do arquivo
+
+less // exibe o conteudo
+
+cp arquivo1 arquivo2 // copia para o outro
+
+mv arquivo1 arquivo2 // move o conteudo como se fosse renomear
+
+code arquivo1 // abre o arquivo no vs code
+
+rm arquivo1 // apaga o arquivo
+
+rm -rf pasta // apaga o diretório
+
+clear // limpa o terminal
+
+history // mostra o histórico de comandos usados
+
+!1111 // recupera o comando que tem esse número no histórico
+
+history | grep mkdir // procura no histórico somente os mkdir
+
+exit // fecha o terminal
